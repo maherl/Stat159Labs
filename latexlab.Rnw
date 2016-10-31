@@ -9,7 +9,7 @@ Advertising <- read.csv("~/Stat159/hw02/data/Advertising.csv")
 @
 
 \section{Abstract}
-A report detailing the performance of a simple regression analysis, based on the examples given in chapter 3 of the book **An Introduction to Statistical Learning**. In this report, we reproduce some of the graphics and statistics included in that chapter.
+A report detailing the performance of a simple regression analysis, based on the examples given in chapter 3 of the book \emph{An Introduction to Statistical Learning}. In this report, we reproduce some of the graphics and statistics included in that chapter.
 
 \section{Introduction}
 The overarching goal of the project is to increase sales of the product. In order to do this, we undertake analysis to see whether there is a concrete relationship between sales and amount of money spent on advertising. This advertising is split into three different media formats: TV, Radio and Newspaper. By developing a model which predicts sales based on funds allotted to each media domain, we can determine the optimal allocation of funds and achieve the greatest amount of sales. 
@@ -47,7 +47,7 @@ Here is a scatterplot detailing the showing the data and how it compares to our 
 
 \begin{figure}
 \includegraphics{C:/Users/Lydia/Documents/Stat159/hw02/images/scatterplot-tv-sales.png}
-\caption{\label{fig:scattertv}: Scatterplot with fitted regression line}
+\caption{\label{fig:scattertv} Scatterplot with fitted regression line}
 \end{figure}
 
 This shows graphically that there is quite a lot of error, but also a positive correlation.
